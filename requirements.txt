@@ -1,0 +1,5 @@
+
+opencv-python
+pytest~=5.4.3
+paramiko
+

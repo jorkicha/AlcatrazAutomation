@@ -243,7 +243,7 @@ function filter_table(elem) { // eslint-disable-line no-unused-vars
 }
 </script>
     <h1>report-test.html</h1>
-    <p>Report generated on 14-Dec-2020 at 10:32:28 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.1.0</p>
+    <p>Report generated on 05-Jan-2021 at 13:58:54 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.1.0</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -251,7 +251,7 @@ function filter_table(elem) { // eslint-disable-line no-unused-vars
         <td>{"pluggy": "0.13.1", "py": "1.9.0", "pytest": "5.4.3"}</td></tr>
       <tr>
         <td>Platform</td>
-        <td>Linux-4.15.0-1103-oem-x86_64-with-debian-buster-sid</td></tr>
+        <td>Linux-5.4.0-58-generic-x86_64-with-debian-buster-sid</td></tr>
       <tr>
         <td>Plugins</td>
         <td>{"html": "3.1.0", "metadata": "1.11.0"}</td></tr>
@@ -259,8 +259,8 @@ function filter_table(elem) { // eslint-disable-line no-unused-vars
         <td>Python</td>
         <td>3.7.9</td></tr></table>
     <h2>Summary</h2>
-    <p>20 tests ran in 2.11 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">11 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">9 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
+    <p>25 tests ran in 2.80 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">11 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">14 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -275,31 +275,31 @@ function filter_table(elem) { // eslint-disable-line no-unused-vars
         <tr>
           <td class="col-result">Failed</td>
           <td class="col-name">Tests/test_face_detect_pytest.py::FaceRecognitionTest::test_102_detection_of_cartoon_faces</td>
-          <td class="col-duration">0.30</td>
+          <td class="col-duration">0.32</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log">self = &lt;test_face_detect_pytest.FaceRecognitionTest object at 0x7fb7ed41e190&gt;<br/><br/>    def test_102_detection_of_cartoon_faces(self):<br/>&gt;       assert face_detect(path + &quot;/cartoon.jpg&quot;) == 0<br/><span class="error">E       assert 1 == 0</span><br/><span class="error">E         +1</span><br/><span class="error">E         -0</span><br/><br/>Tests/test_face_detect_pytest.py:21: AssertionError<br/> ------------------------------Captured stdout call------------------------------ <br/>Found 1 faces!
+            <div class="log">self = &lt;test_face_detect_pytest.FaceRecognitionTest object at 0x7f5a5dcbf1d0&gt;<br/><br/>    def test_102_detection_of_cartoon_faces(self):<br/>&gt;       assert face_detect(path + &quot;/cartoon.jpg&quot;) == 0<br/><span class="error">E       assert 1 == 0</span><br/><span class="error">E         +1</span><br/><span class="error">E         -0</span><br/><br/>Tests/test_face_detect_pytest.py:22: AssertionError<br/> ------------------------------Captured stdout call------------------------------ <br/>Found 1 faces!
 <br/></div></td></tr></tbody>
       <tbody class="failed results-table-row">
         <tr>
           <td class="col-result">Failed</td>
           <td class="col-name">Tests/test_face_detect_pytest.py::FaceRecognitionTest::test_109_detection_of_seven_black_faces</td>
-          <td class="col-duration">0.11</td>
+          <td class="col-duration">0.13</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log">self = &lt;test_face_detect_pytest.FaceRecognitionTest object at 0x7fb7ed41e650&gt;<br/><br/>    def test_109_detection_of_seven_black_faces(self):<br/>&gt;       assert face_detect(path + &#x27;/blackpeople.jpg&#x27;) == 7<br/><span class="error">E       assert 4 == 7</span><br/><span class="error">E         +4</span><br/><span class="error">E         -7</span><br/><br/>Tests/test_face_detect_pytest.py:42: AssertionError<br/> ------------------------------Captured stdout call------------------------------ <br/>Found 4 faces!
+            <div class="log">self = &lt;test_face_detect_pytest.FaceRecognitionTest object at 0x7f5a5dccbdd0&gt;<br/><br/>    def test_109_detection_of_seven_black_faces(self):<br/>&gt;       assert face_detect(path + &#x27;/blackpeople.jpg&#x27;) == 7<br/><span class="error">E       assert 4 == 7</span><br/><span class="error">E         +4</span><br/><span class="error">E         -7</span><br/><br/>Tests/test_face_detect_pytest.py:43: AssertionError<br/> ------------------------------Captured stdout call------------------------------ <br/>Found 4 faces!
 <br/></div></td></tr></tbody>
       <tbody class="failed results-table-row">
         <tr>
           <td class="col-result">Failed</td>
           <td class="col-name">Tests/test_face_detect_pytest.py::FaceRecognitionTest::test_112_detection_of_six_asians</td>
-          <td class="col-duration">0.05</td>
+          <td class="col-duration">0.03</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log">self = &lt;test_face_detect_pytest.FaceRecognitionTest object at 0x7fb7c5c40210&gt;<br/><br/>    def test_112_detection_of_six_asians(self):<br/>&gt;       assert face_detect(path + &quot;/asianfamily.jpeg&quot;) == 6<br/><span class="error">E       assert 2 == 6</span><br/><span class="error">E         +2</span><br/><span class="error">E         -6</span><br/><br/>Tests/test_face_detect_pytest.py:51: AssertionError<br/> ------------------------------Captured stdout call------------------------------ <br/>Found 2 faces!
+            <div class="log">self = &lt;test_face_detect_pytest.FaceRecognitionTest object at 0x7f5a5dd22bd0&gt;<br/><br/>    def test_112_detection_of_six_asians(self):<br/>&gt;       assert face_detect(path + &quot;/asianfamily.jpeg&quot;) == 6<br/><span class="error">E       assert 2 == 6</span><br/><span class="error">E         +2</span><br/><span class="error">E         -6</span><br/><br/>Tests/test_face_detect_pytest.py:52: AssertionError<br/> ------------------------------Captured stdout call------------------------------ <br/>Found 2 faces!
 <br/></div></td></tr></tbody>
       <tbody class="failed results-table-row">
         <tr>
@@ -309,47 +309,47 @@ function filter_table(elem) { // eslint-disable-line no-unused-vars
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log">self = &lt;test_face_detect_pytest.FaceRecognitionTest object at 0x7fb7ed41ef10&gt;<br/><br/>    def test_113_detection_of_five_people_looking_down(self):<br/>&gt;       assert face_detect(path + &#x27;/five_people_looking_down.jpg&#x27;) == 5<br/><span class="error">E       assert 3 == 5</span><br/><span class="error">E         +3</span><br/><span class="error">E         -5</span><br/><br/>Tests/test_face_detect_pytest.py:54: AssertionError<br/> ------------------------------Captured stdout call------------------------------ <br/>Found 3 faces!
+            <div class="log">self = &lt;test_face_detect_pytest.FaceRecognitionTest object at 0x7f5a350eca10&gt;<br/><br/>    def test_113_detection_of_five_people_looking_down(self):<br/>&gt;       assert face_detect(path + &#x27;/five_people_looking_down.jpg&#x27;) == 5<br/><span class="error">E       assert 3 == 5</span><br/><span class="error">E         +3</span><br/><span class="error">E         -5</span><br/><br/>Tests/test_face_detect_pytest.py:55: AssertionError<br/> ------------------------------Captured stdout call------------------------------ <br/>Found 3 faces!
 <br/></div></td></tr></tbody>
       <tbody class="failed results-table-row">
         <tr>
           <td class="col-result">Failed</td>
           <td class="col-name">Tests/test_face_detect_pytest.py::FaceRecognitionTest::test_114_detection_of_thirteen_people_smiling</td>
-          <td class="col-duration">0.34</td>
+          <td class="col-duration">0.36</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log">self = &lt;test_face_detect_pytest.FaceRecognitionTest object at 0x7fb7c5c40590&gt;<br/><br/>    def test_114_detection_of_thirteen_people_smiling(self):<br/>&gt;       assert face_detect(path + &#x27;/thirteen_people_smileing.jpg&#x27;) == 13<br/><span class="error">E       assert 11 == 13</span><br/><span class="error">E         +11</span><br/><span class="error">E         -13</span><br/><br/>Tests/test_face_detect_pytest.py:57: AssertionError<br/> ------------------------------Captured stdout call------------------------------ <br/>Found 11 faces!
+            <div class="log">self = &lt;test_face_detect_pytest.FaceRecognitionTest object at 0x7f5a350ec710&gt;<br/><br/>    def test_114_detection_of_thirteen_people_smiling(self):<br/>&gt;       assert face_detect(path + &#x27;/thirteen_people_smileing.jpg&#x27;) == 13<br/><span class="error">E       assert 11 == 13</span><br/><span class="error">E         +11</span><br/><span class="error">E         -13</span><br/><br/>Tests/test_face_detect_pytest.py:58: AssertionError<br/> ------------------------------Captured stdout call------------------------------ <br/>Found 11 faces!
 <br/></div></td></tr></tbody>
       <tbody class="failed results-table-row">
         <tr>
           <td class="col-result">Failed</td>
           <td class="col-name">Tests/test_face_detect_pytest.py::FaceRecognitionTest::test_116_detection_of_four_babies</td>
-          <td class="col-duration">0.04</td>
+          <td class="col-duration">0.09</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log">self = &lt;test_face_detect_pytest.FaceRecognitionTest object at 0x7fb7c5c60890&gt;<br/><br/>    def test_116_detection_of_four_babies(self):<br/>&gt;       assert face_detect(path + &#x27;/four_babies.jpg&#x27;) == 4<br/><span class="error">E       assert 3 == 4</span><br/><span class="error">E         +3</span><br/><span class="error">E         -4</span><br/><br/>Tests/test_face_detect_pytest.py:63: AssertionError<br/> ------------------------------Captured stdout call------------------------------ <br/>Found 3 faces!
+            <div class="log">self = &lt;test_face_detect_pytest.FaceRecognitionTest object at 0x7f5a350ca490&gt;<br/><br/>    def test_116_detection_of_four_babies(self):<br/>&gt;       assert face_detect(path + &#x27;/four_babies.jpg&#x27;) == 4<br/><span class="error">E       assert 3 == 4</span><br/><span class="error">E         +3</span><br/><span class="error">E         -4</span><br/><br/>Tests/test_face_detect_pytest.py:64: AssertionError<br/> ------------------------------Captured stdout call------------------------------ <br/>Found 3 faces!
 <br/></div></td></tr></tbody>
       <tbody class="failed results-table-row">
         <tr>
           <td class="col-result">Failed</td>
           <td class="col-name">Tests/test_face_detect_pytest.py::FaceRecognitionTest::test_117_detection_of_thirteen_babies_in_circle</td>
-          <td class="col-duration">0.17</td>
+          <td class="col-duration">0.18</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log">self = &lt;test_face_detect_pytest.FaceRecognitionTest object at 0x7fb7c5c67450&gt;<br/><br/>    def test_117_detection_of_thirteen_babies_in_circle(self):<br/>&gt;       assert face_detect(path + &#x27;/thirteen_babies_in_circle.jpg&#x27;) == 13<br/><span class="error">E       assert 1 == 13</span><br/><span class="error">E         +1</span><br/><span class="error">E         -13</span><br/><br/>Tests/test_face_detect_pytest.py:66: AssertionError<br/> ------------------------------Captured stdout call------------------------------ <br/>Found 1 faces!
+            <div class="log">self = &lt;test_face_detect_pytest.FaceRecognitionTest object at 0x7f5a350edb50&gt;<br/><br/>    def test_117_detection_of_thirteen_babies_in_circle(self):<br/>&gt;       assert face_detect(path + &#x27;/thirteen_babies_in_circle.jpg&#x27;) == 13<br/><span class="error">E       assert 1 == 13</span><br/><span class="error">E         +1</span><br/><span class="error">E         -13</span><br/><br/>Tests/test_face_detect_pytest.py:67: AssertionError<br/> ------------------------------Captured stdout call------------------------------ <br/>Found 1 faces!
 <br/></div></td></tr></tbody>
       <tbody class="failed results-table-row">
         <tr>
           <td class="col-result">Failed</td>
           <td class="col-name">Tests/test_face_detect_pytest.py::FaceRecognitionTest::test_118_detection_of_five_baby_faces_in_circle_large_format</td>
-          <td class="col-duration">0.09</td>
+          <td class="col-duration">0.14</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log">self = &lt;test_face_detect_pytest.FaceRecognitionTest object at 0x7fb7c5c6b410&gt;<br/><br/>    def test_118_detection_of_five_baby_faces_in_circle_large_format(self):<br/>&gt;       assert face_detect(path + &#x27;/five_baby_faces_in_circle.jpg&#x27;) == 5<br/><span class="error">E       assert 0 == 5</span><br/><span class="error">E         +0</span><br/><span class="error">E         -5</span><br/><br/>Tests/test_face_detect_pytest.py:69: AssertionError<br/> ------------------------------Captured stdout call------------------------------ <br/>Found 0 faces!
+            <div class="log">self = &lt;test_face_detect_pytest.FaceRecognitionTest object at 0x7f5a350ecb50&gt;<br/><br/>    def test_118_detection_of_five_baby_faces_in_circle_large_format(self):<br/>&gt;       assert face_detect(path + &#x27;/five_baby_faces_in_circle.jpg&#x27;) == 5<br/><span class="error">E       assert 0 == 5</span><br/><span class="error">E         +0</span><br/><span class="error">E         -5</span><br/><br/>Tests/test_face_detect_pytest.py:70: AssertionError<br/> ------------------------------Captured stdout call------------------------------ <br/>Found 0 faces!
 <br/></div></td></tr></tbody>
       <tbody class="failed results-table-row">
         <tr>
@@ -359,24 +359,92 @@ function filter_table(elem) { // eslint-disable-line no-unused-vars
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log">self = &lt;test_face_detect_pytest.FaceRecognitionTest object at 0x7fb7c5c3bbd0&gt;<br/><br/>    def test_119_detection_pf_five_baby_faces_in_circle_small_format(self):<br/>&gt;       assert face_detect(path + &#x27;/face_in_circle.jpeg&#x27;) == 5<br/><span class="error">E       assert 1 == 5</span><br/><span class="error">E         +1</span><br/><span class="error">E         -5</span><br/><br/>Tests/test_face_detect_pytest.py:72: AssertionError<br/> ------------------------------Captured stdout call------------------------------ <br/>Found 1 faces!
+            <div class="log">self = &lt;test_face_detect_pytest.FaceRecognitionTest object at 0x7f5a5dcb2650&gt;<br/><br/>    def test_119_detection_pf_five_baby_faces_in_circle_small_format(self):<br/>&gt;       assert face_detect(path + &#x27;/face_in_circle.jpeg&#x27;) == 5<br/><span class="error">E       assert 1 == 5</span><br/><span class="error">E         +1</span><br/><span class="error">E         -5</span><br/><br/>Tests/test_face_detect_pytest.py:73: AssertionError<br/> ------------------------------Captured stdout call------------------------------ <br/>Found 1 faces!
+<br/></div></td></tr></tbody>
+      <tbody class="failed results-table-row">
+        <tr>
+          <td class="col-result">Failed</td>
+          <td class="col-name">Tests/test_face_detect_pytest.py::FaceRecognitionTest::test_120_wrong_input</td>
+          <td class="col-duration">0.02</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log">self = &lt;test_face_detect_pytest.FaceRecognitionTest object at 0x7f5a5dd22a10&gt;<br/><br/>    def test_120_wrong_input(self):<br/>        try:<br/>&gt;           assert face_detect(2) == 0<br/><br/>Tests/test_face_detect_pytest.py:77: <br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ <br/><br/>image = 2<br/><br/>    def face_detect(image):<br/>        image_path = image<br/>        casc_path = os.getcwd() + &quot;/libs/haarcascade_frontalface_default.xml&quot;<br/>    <br/>        # Create the haar cascade<br/>        face_cascade = cv2.CascadeClassifier(casc_path)<br/>    <br/>        # Read the image<br/>&gt;       image = cv2.imread(image_path)<br/><span class="error">E       SystemError: &lt;built-in function imread&gt; returned NULL without setting an error</span><br/><br/>libs/face_detect.py:15: SystemError<br/> ------------------------------Captured stdout call------------------------------ <br/>Unexpected file format
+<br/></div></td></tr></tbody>
+      <tbody class="failed results-table-row">
+        <tr>
+          <td class="col-result">Failed</td>
+          <td class="col-name">Tests/test_face_detect_pytest.py::FaceRecognitionTest::test_121_different_file_format_from</td>
+          <td class="col-duration">0.01</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log">self = &lt;test_face_detect_pytest.FaceRecognitionTest object at 0x7f5a350ca410&gt;<br/><br/>    def test_121_different_file_format_from(self):<br/>        try:<br/>&gt;           assert face_detect(path + &#x27;Prilojenie-02A-NRD-2018-MD-20-04-2018.pdf&#x27;) == 0<br/><br/>Tests/test_face_detect_pytest.py:84: <br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ <br/><br/>image = None<br/><br/>    def face_detect(image):<br/>        image_path = image<br/>        casc_path = os.getcwd() + &quot;/libs/haarcascade_frontalface_default.xml&quot;<br/>    <br/>        # Create the haar cascade<br/>        face_cascade = cv2.CascadeClassifier(casc_path)<br/>    <br/>        # Read the image<br/>        image = cv2.imread(image_path)<br/>&gt;       gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)<br/><span class="error">E       cv2.error: OpenCV(4.1.2-openvino) /home/jenkins/workspace/OpenCV/OpenVINO/build/opencv/modules/imgproc/src/color.cpp:182: error: (-215:Assertion failed) !_src.empty() in function &#x27;cvtColor&#x27;</span><br/><br/>libs/face_detect.py:16: error<br/> ------------------------------Captured stdout call------------------------------ <br/>Unexpected file format
+<br/></div></td></tr></tbody>
+      <tbody class="failed results-table-row">
+        <tr>
+          <td class="col-result">Failed</td>
+          <td class="col-name">Tests/test_face_detect_pytest.py::FaceRecognitionTest::test_122_corupted_png_file</td>
+          <td class="col-duration">0.01</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log">self = &lt;test_face_detect_pytest.FaceRecognitionTest object at 0x7f5a350c4110&gt;<br/><br/>    def test_122_corupted_png_file(self):<br/>        try:<br/>&gt;           assert face_detect(path + &#x27;/coruptedPNGFile.png&#x27;) == 0<br/><br/>Tests/test_face_detect_pytest.py:91: <br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ <br/><br/>image = None<br/><br/>    def face_detect(image):<br/>        image_path = image<br/>        casc_path = os.getcwd() + &quot;/libs/haarcascade_frontalface_default.xml&quot;<br/>    <br/>        # Create the haar cascade<br/>        face_cascade = cv2.CascadeClassifier(casc_path)<br/>    <br/>        # Read the image<br/>        image = cv2.imread(image_path)<br/>&gt;       gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)<br/><span class="error">E       cv2.error: OpenCV(4.1.2-openvino) /home/jenkins/workspace/OpenCV/OpenVINO/build/opencv/modules/imgproc/src/color.cpp:182: error: (-215:Assertion failed) !_src.empty() in function &#x27;cvtColor&#x27;</span><br/><br/>libs/face_detect.py:16: error<br/> ------------------------------Captured stdout call------------------------------ <br/>This file is corrupted
+<br/></div></td></tr></tbody>
+      <tbody class="failed results-table-row">
+        <tr>
+          <td class="col-result">Failed</td>
+          <td class="col-name">Tests/test_face_detect_pytest.py::FaceRecognitionTest::test_123_array</td>
+          <td class="col-duration">0.01</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log">self = &lt;test_face_detect_pytest.FaceRecognitionTest object at 0x7f5a350d1150&gt;<br/><br/>    def test_123_array(self):<br/>        try:<br/>&gt;           assert face_detect([0,2]) == 0<br/><br/>Tests/test_face_detect_pytest.py:98: <br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ <br/><br/>image = [0, 2]<br/><br/>    def face_detect(image):<br/>        image_path = image<br/>        casc_path = os.getcwd() + &quot;/libs/haarcascade_frontalface_default.xml&quot;<br/>    <br/>        # Create the haar cascade<br/>        face_cascade = cv2.CascadeClassifier(casc_path)<br/>    <br/>        # Read the image<br/>&gt;       image = cv2.imread(image_path)<br/><span class="error">E       SystemError: &lt;built-in function imread&gt; returned NULL without setting an error</span><br/><br/>libs/face_detect.py:15: SystemError<br/> ------------------------------Captured stdout call------------------------------ <br/>This should not be array
+<br/></div></td></tr></tbody>
+      <tbody class="failed results-table-row">
+        <tr>
+          <td class="col-result">Failed</td>
+          <td class="col-name">Tests/test_face_detect_pytest.py::FaceRecognitionTest::test_124_char</td>
+          <td class="col-duration">0.01</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log">self = &lt;test_face_detect_pytest.FaceRecognitionTest object at 0x7f5a350c4410&gt;<br/><br/>    def test_124_char(self):<br/>        try:<br/>&gt;           assert face_detect(&#x27;a&#x27;) == 0<br/><br/>Tests/test_face_detect_pytest.py:105: <br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ <br/><br/>image = None<br/><br/>    def face_detect(image):<br/>        image_path = image<br/>        casc_path = os.getcwd() + &quot;/libs/haarcascade_frontalface_default.xml&quot;<br/>    <br/>        # Create the haar cascade<br/>        face_cascade = cv2.CascadeClassifier(casc_path)<br/>    <br/>        # Read the image<br/>        image = cv2.imread(image_path)<br/>&gt;       gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)<br/><span class="error">E       cv2.error: OpenCV(4.1.2-openvino) /home/jenkins/workspace/OpenCV/OpenVINO/build/opencv/modules/imgproc/src/color.cpp:182: error: (-215:Assertion failed) !_src.empty() in function &#x27;cvtColor&#x27;</span><br/><br/>libs/face_detect.py:16: error<br/> ------------------------------Captured stdout call------------------------------ <br/>Unexpected input
 <br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
-          <td class="col-name">Tests/test_face_detect_pytest.py::FaceRecognitionTest::test_0100_detection_of_multiple_faces</td>
-          <td class="col-duration">0.09</td>
+          <td class="col-name">Tests/test_face_detect_pytest.py::FaceRecognitionTest::test_0100_detection_of_four_faces</td>
+          <td class="col-duration">0.52</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
             <div class="log"> ------------------------------Captured stdout call------------------------------ <br/>Found 4 faces!
+Found 4 faces!
+Found 4 faces!
+Found 4 faces!
+Found 4 faces!
+Found 4 faces!
+Found 4 faces!
+Found 4 faces!
+Found 4 faces!
+Found 4 faces!
 <br/> ------------------------------Captured stderr call------------------------------ <br/>libpng warning: iCCP: profile &#x27;Photoshop ICC profile&#x27;: &#x27;GRAY&#x27;: Gray color space not permitted on RGB PNG
+libpng warning: iCCP: profile &#x27;Photoshop ICC profile&#x27;: &#x27;GRAY&#x27;: Gray color space not permitted on RGB PNG
+libpng warning: iCCP: profile &#x27;Photoshop ICC profile&#x27;: &#x27;GRAY&#x27;: Gray color space not permitted on RGB PNG
+libpng warning: iCCP: profile &#x27;Photoshop ICC profile&#x27;: &#x27;GRAY&#x27;: Gray color space not permitted on RGB PNG
+libpng warning: iCCP: profile &#x27;Photoshop ICC profile&#x27;: &#x27;GRAY&#x27;: Gray color space not permitted on RGB PNG
+libpng warning: iCCP: profile &#x27;Photoshop ICC profile&#x27;: &#x27;GRAY&#x27;: Gray color space not permitted on RGB PNG
+libpng warning: iCCP: profile &#x27;Photoshop ICC profile&#x27;: &#x27;GRAY&#x27;: Gray color space not permitted on RGB PNG
+libpng warning: iCCP: profile &#x27;Photoshop ICC profile&#x27;: &#x27;GRAY&#x27;: Gray color space not permitted on RGB PNG
+libpng warning: iCCP: profile &#x27;Photoshop ICC profile&#x27;: &#x27;GRAY&#x27;: Gray color space not permitted on RGB PNG
+libpng warning: iCCP: profile &#x27;Photoshop ICC profile&#x27;: &#x27;GRAY&#x27;: Gray color space not permitted on RGB PNG
 <br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">Tests/test_face_detect_pytest.py::FaceRecognitionTest::test_101_detection_of_one_face</td>
-          <td class="col-duration">0.02</td>
+          <td class="col-duration">0.03</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
@@ -406,7 +474,7 @@ function filter_table(elem) { // eslint-disable-line no-unused-vars
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">Tests/test_face_detect_pytest.py::FaceRecognitionTest::test_105_detection_of_animal_lion_face</td>
-          <td class="col-duration">0.02</td>
+          <td class="col-duration">0.03</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
@@ -426,7 +494,7 @@ function filter_table(elem) { // eslint-disable-line no-unused-vars
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">Tests/test_face_detect_pytest.py::FaceRecognitionTest::test_107_detection_of_black_face_male</td>
-          <td class="col-duration">0.04</td>
+          <td class="col-duration">0.02</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
@@ -436,7 +504,7 @@ function filter_table(elem) { // eslint-disable-line no-unused-vars
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">Tests/test_face_detect_pytest.py::FaceRecognitionTest::test_108_detection_of_black_face_female</td>
-          <td class="col-duration">0.05</td>
+          <td class="col-duration">0.06</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
@@ -446,7 +514,7 @@ function filter_table(elem) { // eslint-disable-line no-unused-vars
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">Tests/test_face_detect_pytest.py::FaceRecognitionTest::test_110_detection_of_asian_male</td>
-          <td class="col-duration">0.08</td>
+          <td class="col-duration">0.09</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
@@ -456,7 +524,7 @@ function filter_table(elem) { // eslint-disable-line no-unused-vars
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">Tests/test_face_detect_pytest.py::FaceRecognitionTest::test_111_detection_of_asian_female</td>
-          <td class="col-duration">0.02</td>
+          <td class="col-duration">0.03</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">

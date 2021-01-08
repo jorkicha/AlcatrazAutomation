@@ -1,6 +1,8 @@
 #!/usr/bin/python3.7
 import cv2
+
 from cv2 import waitKey
+
 import os
 
 
@@ -23,10 +25,11 @@ def face_detect(image):
         minSize=(5, 5),
         flags=cv2.CASCADE_SCALE_IMAGE
     )
-    print("Found {0} faces!".format(len(faces)))
+    #print("Found {0} faces!".format(len(faces)))
     # Draw a rectangle around the faces
     for (x, y, w, h) in faces:
         cv2.rectangle(image, (x, y), (x + w, y + h), (0, 255, 0), 2)
 
-    cv2.imshow("Faces found", image)
+    #cv2.imshow("Faces found", image)
     return len(faces)
+

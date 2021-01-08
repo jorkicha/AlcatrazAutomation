@@ -1,18 +1,18 @@
 import os
 
-from pytest import mark
+import pytest
 
 from libs.face_detect import face_detect
 
 path = os.getcwd() + '/Tests/Resources/'
 
 
-@mark.faceRecognitionTest
-class FaceRecognitionTest:
-
+@pytest.mark.faceRecognitionTest
+class FaceRecognitionTest():
 
     def test_0100_detection_of_four_faces(self):
-        assert face_detect(path + "/abba.png") == 4
+        for i in range(10):
+            assert face_detect(path + "/abba.png") == 4
 
     def test_101_detection_of_one_face(self):
         assert face_detect(path + "/oneFace.jpeg") == 1
@@ -71,4 +71,42 @@ class FaceRecognitionTest:
     def test_119_detection_pf_five_baby_faces_in_circle_small_format(self):
         assert face_detect(path + '/face_in_circle.jpeg') == 5
 
+    def test_120_wrong_input(self):
+        try:
+            assert face_detect(2) == 0
+        except:
+            print('Unexpected file format')
+            raise
 
+    def test_121_different_file_format_from(self):
+        try:
+            assert face_detect(path + 'Prilojenie-02A-NRD-2018-MD-20-04-2018.pdf') == 0
+        except:
+            print('Unexpected file format')
+            raise
+
+    def test_122_corupted_png_file(self):
+        try:
+            assert face_detect(path + '/coruptedPNGFile.png') == 0
+        except:
+            print('This file is corrupted')
+            raise
+
+    def test_123_array(self):
+        try:
+            assert face_detect([0,2]) == 0
+        except:
+            print('This should not be array')
+            raise
+
+    def test_124_char(self):
+        try:
+            assert face_detect('a') == 0
+        except:
+            print('Unexpected input')
+            raise
+
+
+
+
+#How to get logs from different env
